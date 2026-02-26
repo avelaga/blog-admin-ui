@@ -323,8 +323,4 @@ The webhook call uses `c.executionCtx.waitUntil()` so it completes after the HTT
 
 ---
 
-## Future Plans
-
-- Public blog built in Astro.js, deployed to Cloudflare Pages
-- Served at a subdomain of `abhi.work` (e.g. `blog.abhi.work`)
-- Blog section may eventually be integrated into the main portfolio site
+last updated 2/25/26
