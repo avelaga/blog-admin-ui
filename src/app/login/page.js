@@ -41,7 +41,6 @@ export default function LoginPage() {
   return (
     <main className="container login-container">
       <form onSubmit={handleSubmit} className="login-form">
-        <h1>Blog Admin</h1>
         <input
           type="text"
           value={username}

@@ -65,6 +65,7 @@ export default function PostList() {
 
   return (
     <div>
+      <div className="post-table-wrapper">
       <table className="post-table">
         <thead>
           <tr>
@@ -113,6 +114,7 @@ export default function PostList() {
           ))}
         </tbody>
       </table>
+      </div>
 
       {pagination && pagination.pages > 1 && (
         <div className="pagination">

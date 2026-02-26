@@ -22,7 +22,7 @@ export default function PostEditor({ post }) {
 
   const editor = useEditor({
     extensions: [StarterKit, Image],
-    content: post?.content || "<p>Start writing...</p>",
+    content: post?.content || "",
     immediatelyRender: false,
   });
 
